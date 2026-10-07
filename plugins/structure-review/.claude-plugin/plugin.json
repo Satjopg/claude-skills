@@ -1,0 +1,9 @@
+{
+  "name": "structure-review",
+  "description": "動作が正しいPRやbranchに対して、構造の正しさを点検する。概念とモジュールの対応、依存の向きと循環、変更シナリオごとの影響範囲、関数のステートレス性、repoの作りとの整合を見て、ギャップと直す案と決めごとを報告する。",
+  "author": {
+    "name": "migo"
+  },
+  "repository": "https://github.com/Satjopg/claude-skills",
+  "license": "MIT"
+}

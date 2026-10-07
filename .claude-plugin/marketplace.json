@@ -1,0 +1,39 @@
+{
+  "name": "satjopg-claude-skills",
+  "owner": {
+    "name": "migo"
+  },
+  "metadata": {
+    "description": "migo's Claude Code Agent Skills collection",
+    "version": "0.0.1",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "pr-review-companion",
+      "source": "./plugins/pr-review-companion",
+      "description": "人間がPRを理解してレビューできるように補助する。判定も指摘もせず、PRを読む順番と各箇所で分かる事、壊れた時の影響とガードの場所を短く示し、以後はレビュアーの単発の問いに1〜2行と根拠の場所で即答する。",
+      "version": "0.0.1",
+      "author": {
+        "name": "migo"
+      },
+      "repository": "https://github.com/Satjopg/claude-skills",
+      "license": "MIT",
+      "keywords": ["pull-request", "review", "reading-guide"],
+      "category": "code-review"
+    },
+    {
+      "name": "structure-review",
+      "source": "./plugins/structure-review",
+      "description": "動作が正しいPRやbranchに対して、構造の正しさを点検する。概念とモジュールの対応、依存の向きと循環、変更シナリオごとの影響範囲、関数のステートレス性、repoの作りとの整合を見て、ギャップと直す案と決めごとを報告する。",
+      "version": "0.0.1",
+      "author": {
+        "name": "migo"
+      },
+      "repository": "https://github.com/Satjopg/claude-skills",
+      "license": "MIT",
+      "keywords": ["pull-request", "review", "architecture", "dependency", "refactoring"],
+      "category": "code-review"
+    }
+  ]
+}
