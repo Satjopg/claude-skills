@@ -13,7 +13,7 @@
       "name": "pr-review-companion",
       "source": "./plugins/pr-review-companion",
       "description": "人間がPRを理解してレビューできるように補助する。判定も指摘もせず、PRを読む順番と各箇所で分かる事、壊れた時の影響とガードの場所を短く示し、以後はレビュアーの単発の問いに1〜2行と根拠の場所で即答する。",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "author": {
         "name": "migo"
       },
